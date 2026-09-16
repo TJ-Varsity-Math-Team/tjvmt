@@ -14,47 +14,47 @@ export const getServerSideProps = async ({ req, res }) => {
 
       officers: [
         {
-          picture: `/images/officers/25/olivia.jpg`,
+          picture: `/images/officers/26/anderson.jpg`,
           position: "Captain",
-          name: "Olivia Wu",
-        },
-        {
-          picture: `/images/officers/25/anderson.jpg`,
-          position: "Co-Captain",
           name: "Anderson Hao",
         },
         {
-          picture: `/images/officers/25/paul.jpg`,
+          picture: `/images/officers/26/paul.jpg`,
           position: "Co-Captain",
           name: "Paul Yoo",
         },
         {
-          picture: `/images/officers/25/eshaan.jpg`,
-          position: "Statistician",
-          name: "Eshaan Sombhatta",
+          picture: `/images/officers/26/shunyao.jpg`,
+          position: "Co-Captain",
+          name: "Shunyao Yan",
         },
         {
-          picture: `/images/officers/25/patrick.jpg`,
+          picture: `/images/officers/26/patrick.jpg`,
           position: "Statistician",
           name: "Patrick Du",
         },
         {
-          picture: `/images/officers/25/emily.jpg`,
-          position: "Finance Officer",
-          name: "Emily Qiu",
-        },
-        {
-          picture: `/images/officers/25/tiger.jpg`,
-          position: "Finance Officer",
+          picture: `/images/officers/26/tiger.jpg`,
+          position: "Statistician",
           name: "Tiger Deng",
         },
         {
-          picture: `/images/officers/25/shunyao.jpg`,
-          position: "Secretary",
-          name: "Shunyao Yan",
+          picture: `/images/officers/26/eshaan.jpg`,
+          position: "Finance Officer",
+          name: "Eshaan Sombhatta",
         },
         {
-          picture: `/images/officers/25/ethan.jpg`,
+          picture: `/images/officers/26/ray.png`,
+          position: "Finance Officer",
+          name: "Ray Zhao",
+        },
+        {
+          picture: `/images/officers/26/vincent.png`,
+          position: "Secretary",
+          name: "Vincent Chu",
+        },
+        {
+          picture: `/images/officers/26/ethan.jpg`,
           position: "Historian",
           name: "Ethan Shan",
         },
@@ -202,7 +202,7 @@ const LeadershipSection = ({
         <div className="flex flex-wrap lg:flex-nowrap justify-center">
           <div className="relative aspect-[13/10] w-11/12 lg:w-8/12 mb-8 lg:mb-0">
             <Image
-              src="/images/officers/officers25.jpg"
+              src="/images/officers/officers26.jpg"
               alt="Officer Picture"
               layout="fill"
               className="object-contain"
